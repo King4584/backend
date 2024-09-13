@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-</head>
-<body>
-    <h2 class="bg-red-100"> Hello bhai....</h2>
-    
-</body>
+    <title>Input</title>
+  </head>
+  <body>
+    <div class="main w-full min-h-screen bg-zinc-900 text-white">
+      <div class="form p-10 w-full">
+        <form action="">
+          <input
+            class="block px-5 py-2 rounded-lg outline-none bg-zinc-800"
+            type="text"
+            placeholder="Title goes here..."
+          />
+          <textarea
+            class="block mt-2 px-5 py-2 rounded-lg outline-none bg-zinc-800 resize-none"
+            placeholder="Write your task details here"
+          ></textarea>
+          <input
+            class="mt-2 bg-blue-600 px-5 py-2"
+            type="submit"
+            value="Create Task"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
